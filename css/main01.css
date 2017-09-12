@@ -1,0 +1,533 @@
+* {
+
+
+
+  boxsizing: borderbox;
+
+
+
+body {
+
+
+
+  background: #454545;
+
+
+
+  lineheight: 1.7;
+
+
+
+ }
+
+
+
+
+
+
+
+ a {
+
+
+
+   textdecoration: none;
+
+
+
+  color: #555;
+
+
+
+}
+
+
+
+
+
+
+
+h2, h1 {
+
+
+
+  margin: 10px 0 0 0;
+
+
+
+ }
+
+
+
+
+
+
+
+body {
+
+
+
+  background: #454545;
+
+
+
+  color: #555;
+
+
+
+  lineheight: 1.7;
+
+
+
+  fontsize: 16px;
+
+
+
+a, body {
+
+
+
+  color: #eee;
+
+
+
+ }
+
+
+
+
+
+
+
+#sidebar {
+
+
+
+  position: fixed;
+
+
+
+  color: #eee;
+
+
+
+  width: 20%;
+
+
+
+.sidebar {
+
+
+
+   float: left;
+
+
+
+  paddingright: 30px;
+
+
+
+  width: 20%;
+
+
+
+  position: fixed;
+
+
+
+ }
+
+
+
+
+
+
+
+#sidebar > * {
+
+
+
+.sidebar > * {
+
+
+
+   padding: 10px 15px;
+
+
+
+ }
+
+
+
+#sidebar .nav .item,
+
+
+
+#sidebar .cat .item {
+
+
+
+
+
+
+
+.sidebar .nav a,
+
+
+
+.sidebar .taglist a {
+
+
+
+   display: block;
+
+
+
+  padding: 5px 0;
+
+
+
+  padding: 5px;
+
+
+
+   color: #888;
+
+
+
+   webkittransition: color 200ms;
+
+
+
+   otransition: color 200ms;
+
+
+
+   transition: color 200ms;
+
+
+
+ }
+
+
+
+
+
+
+
+#sidebar .nav .item:hover,
+
+
+
+#sidebar .cat .item:hover {
+
+
+
+.sidebar .nav a:hover,
+
+
+
+.sidebar .taglist a:hover {
+
+
+
+   color: #eee;
+
+
+
+ }
+
+
+
+
+
+
+
+#sidebar .nav .item {
+
+
+
+  fontsize: 16px;
+
+
+
+.sidebar .nav a {
+
+
+
+   fontweight: 700;
+
+
+
+ }
+
+
+
+
+
+
+
+#brand {
+
+
+
+  paddingtop: 3px;
+
+
+
+  paddingbottom: 3px;
+
+
+
+  color: #eee;
+
+
+
+  margin: 10px;
+
+
+
+  display: inlineblock;
+
+
+
+  fontsize: 30px;
+
+
+
+.main {
+
+
+
+  float: right;
+
+
+
+  width: 80%;
+
+
+
+  color: #454545;
+
+
+
+}
+
+
+
+
+
+
+
+.header .logo {
+
+
+
+  lineheight: 1;
+
+
+
+   border: 5px solid #eee;
+
+
+
+  padding: 10px 20px;
+
+
+
+  fontsize: 30px;
+
+
+
+  display: inlineblock;
+
+
+
+  marginbottom: 10px;
+
+
+
+ }
+
+
+
+
+
+
+
+.main {
+
+
+
+  padding: 10px 30px;
+
+
+
+  float: right;
+
+
+
+  width: 50%;
+
+
+
+  background: #fff;
+
+
+
+.articlelist, .article {
+
+
+
+   marginright: 30%;
+
+
+
+  webkitboxshadow: 2px 2px 3px rgba(0,0,0,.2);
+
+
+
+  boxshadow: 2px 2px 3px rgba(0,0,0,.2);
+
+
+
+  background: #fff;
+
+
+
+  padding: 20px 30px;
+
+
+
+  webkitboxshadow: 0 0 3px 2px rgba(0,0,0,.2);
+
+
+
+  boxshadow: 0 0 3px 2px rgba(0,0,0,.2);
+
+
+
+}
+
+
+
+
+
+
+
+.articlelist .item  {
+
+
+
+  marginbottom: 25px;
+
+
+
+ }
+
+
+
+
+
+
+
+.articlelist .item {
+
+
+
+  marginbottom: 30px;
+
+
+
+.articlelist .item .title,
+
+
+
+.article .title {
+
+
+
+  color: #454545;
+
+
+
+  fontsize: 22px;
+
+
+
+  fontweight: 700;
+
+
+
+ }
+
+
+
+
+
+
+
+.articlelist .item .title {
+
+
+
+  fontsize: 20px;
+
+
+
+  fontweight: 900;
+
+
+
+.articlelist .item .status,
+
+
+
+.article .status {
+
+
+
+  fontsize: 13px;
+
+
+
+  color: #ccc;
+
+
+
+ }
+
+
+
+
+
+
+
+.article .status,
+
+
+
+.articlelist .item .status {
+
+
+
+.articlelist .item > *,
+
+
+
+.article > * {
+
+
+
+   margin: 10px 0;
+
+
+
+  fontsize: 13px;
+
+
+
+  color: #aaa;
+
+
+
+ } 
