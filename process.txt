@@ -1,0 +1,140 @@
+C:\Users\cclaireqq>$cd
+'$cd' 不是内部或外部命令，也不是可运行的程序
+或批处理文件。
+
+C:\Users\cclaireqq>cd
+C:\Users\cclaireqq
+
+C:\Users\cclaireqq>cd..
+
+C:\Users>cd..
+
+C:\>cd HTML
+
+C:\HTML>
+C:\HTML>git clone https://github.com/cclaireqq/learn.git
+fatal: destination path 'learn' already exists and is not an empty directory.
+
+C:\HTML>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\HTML>git add --all
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\HTML>git clone https://github.com/cclaireqq/learn01.git
+Cloning into 'learn01'...
+warning: You appear to have cloned an empty repository.
+
+C:\HTML>git clone https://github.com/biaoyansu/11.x.git
+Cloning into '11.x'...
+remote: Counting objects: 207, done.
+remote: Total 207 (delta 0), reused 0 (delta 0), pack-reused 207
+Receiving objects: 100% (207/207), 1.65 MiB | 610.00 KiB/s, done.
+Resolving deltas: 100% (15/15), done.
+
+C:\HTML>git status
+fatal: Not a git repository (or any of the parent directories): .git
+
+C:\HTML>git init
+Initialized empty Git repository in C:/HTML/.git/
+
+C:\HTML>git add
+Nothing specified, nothing added.
+Maybe you wanted to say 'git add .'?
+
+C:\HTML>git add --all
+warning: adding embedded git repository: learn
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> learn
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached learn
+hint:
+hint: See "git help submodule" for more information.
+warning: adding embedded git repository: learn01
+warning: adding embedded git repository: learning how to learn
+
+C:\HTML>git commit -m"懵逼"
+[master (root-commit) b0ee806] 懵逼
+ 50 files changed, 813 insertions(+)
+ create mode 100644 "css \351\241\265\351\235\242\345\270\203\345\261\200.txt"
+ create mode 100644 css.txt
+ create mode 100644 example.txt
+ create mode 100644 flash vedio audio.txt
+ create mode 100644 form.txt
+ create mode 100644 html label.txt
+ create mode 100644 javascript/j1.html
+ create mode 100644 javascript/main.js
+ create mode 100644 jsbasic.txt
+ create mode 100644 jsexpample basic.txt
+ create mode 160000 learn
+ create mode 160000 learn01
+ create mode 160000 learning how to learn
+ create mode 100644 nn/css/main.css
+ create mode 100644 nn/index.html
+ create mode 100644 resume.txt
+ create mode 100644 shop/apple.JPG
+ create mode 100644 shop/ball.JPG
+ create mode 100644 shop/bell.JPG
+ create mode 100644 shop/bug.JPG
+ create mode 100644 shop/cat.JPG
+ create mode 100644 shop/css/main.css
+ create mode 100644 shop/dog.JPG
+ create mode 100644 shop/elephant.JPG
+ create mode 100644 shop/fish.JPG
+ create mode 100644 shop/g.JPG
+ create mode 100644 shop/house.JPG
+ create mode 100644 shop/index.html
+ create mode 100644 shop/ink.JPG
+ create mode 100644 shop/jump.JPG
+ create mode 100644 shop/kang.JPG
+ create mode 100644 shop/lion.JPG
+ create mode 100644 shop/mother.JPG
+ create mode 100644 shop/notebook.JPG
+ create mode 100644 shop/o.JPG
+ create mode 100644 shop/paper.JPG
+ create mode 100644 shop/queen.JPG
+ create mode 100644 shop/rainbow.JPG
+ create mode 100644 shop/sleep.JPG
+ create mode 100644 shop/slide0.png
+ create mode 100644 shop/tower.JPG
+ create mode 100644 shop/umbrella.JPG
+ create mode 100644 shop/vecle.JPG
+ create mode 100644 shop/water.JPG
+ create mode 100644 shop/x.JPG
+ create mode 100644 shop/y.JPG
+ create mode 100644 shop/zoo.JPG
+ create mode 100644 "\345\207\275\346\225\260\345\257\271\350\261\241\345\222\214\346\226\271\346\263\225.txt"
+ create mode 100644 "\345\255\227\351\235\242\351\207\217\350\257\255\346\263\225\345\210\233\345\273\272\357\274\214\350\256\277\351\227\256\345\257\271\350\261\241.txt"
+ create mode 100644 "\346\226\207\344\273\266\345\257\271\350\261\241\346\250\241\345\236\213.txt"
+
+C:\HTML>git remote add origin https://github.com/cclaireqq/learn01.git
+
+C:\HTML>git pull origin master
+warning: no common commits
+remote: Counting objects: 3, done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (3/3), done.
+From https://github.com/cclaireqq/learn01
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+fatal: refusing to merge unrelated histories
+
+C:\HTML>
+C:\HTML>git push -u origin master
+To https://github.com/cclaireqq/learn01.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/cclaireqq/learn01.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+C:\HTML>
